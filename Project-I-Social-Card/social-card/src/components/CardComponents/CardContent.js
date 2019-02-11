@@ -13,3 +13,5 @@ const CardContent = () => {
         </div>
     );
 }
+
+export default CardContent;

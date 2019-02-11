@@ -1,6 +1,10 @@
 import React from 'react';
 import './Header.css';
 
+import ImageThumbnail from './ImageThumbnail';
+import HeaderTitle from './HeaderTitle';
+import HeaderContent from './HeaderContent';
+
 
 const HeaderContainer = () => {
     return (
@@ -12,7 +16,4 @@ const HeaderContainer = () => {
     );
 }
 
-
-
-ReactDom.render(<HeaderContainer />, rootDiv);
-ReactDom.render(<CardContainer />, rootDiv);
+export default HeaderContainer;

@@ -8,3 +8,5 @@ const CardBanner = () => {
         </div>
     );
 }
+
+export default CardBanner;

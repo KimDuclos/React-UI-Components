@@ -9,3 +9,5 @@ const HeaderTitle = () => {
         </div>
     );
 }
+
+export default HeaderTitle;
