@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+
+
+/* icon */
+.head {
+    width: 700px;
+}
+
+.headerImage {
+    width: 90px;
+    margin: 0 0 0 0;
+}
+
+.icon {
+    display: flex;
+    justify-content: row;
+    width: 60px;
+}
+
+/* */
+.headTitle {
+    width: 600px;
+    margin: 0% 0 0 100px;
+    display: flex;
+    justify-content: row;
+    justify-content: baseline;
+}
+
+.LS {
+    padding: 0 1% 0 0;
+}
+
+.timeStamp {
+    color: rgb(170, 170, 170);
+}
+
+.HeadContent {
+    width: 600px;
+    margin: 0 0 0 100px;
+}
