@@ -3,7 +3,7 @@ import './Button.css';
 
 const CalcButtons = props => {
     return (
-            <button className='calc'>calc</button>
+            <button className='calc'>{props.calcBut}</button>
     );
 };
 
