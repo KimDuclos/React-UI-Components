@@ -5,7 +5,7 @@ import NumberButton from '../ButtonComponents/NumberButton';
 const CalculatorDisplay = () => {
     return (
         <div className="Display">
-            <NumberButton />
+            0
         </div>
     )
 };
