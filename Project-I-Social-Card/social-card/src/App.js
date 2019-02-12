@@ -3,14 +3,14 @@ import './App.css';
 
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
-import TwitterContainer from './components/TwitterIcons/TwitterContainer';
+import FooterContainer from './components/FooterComponents/FooterContainer';
 
 const App = () => {
   return (
     <div className="CardApp">
       <HeaderContainer />
       <CardContainer />
-      <TwitterContainer />
+      <FooterContainer />
     </div>
   );
 };
