@@ -5,8 +5,9 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
-    <div>
-     
+    <div className='App'>
+      <NumberButton />
+      <ActionButton />
     </div>
   );
 };

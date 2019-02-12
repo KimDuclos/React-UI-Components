@@ -1,9 +1,13 @@
 import React from 'react';
 import './Display.css';
+import NumberButton from '../ButtonComponents/NumberButton';
 
-const CalculatorDisplay = props => {
+const CalculatorDisplay = () => {
     return (
-        display={props.display};
+        <div className="Display">
+            <NumberButton />
+        </div>
+    )
 };
 
 export default CalculatorDisplay;
