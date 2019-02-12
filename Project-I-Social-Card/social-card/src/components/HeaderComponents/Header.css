@@ -20,14 +20,14 @@
 
 .headerImage {
     width: 90px;
-    margin: 0 0 0 0;
+    margin: 0 0% 0 0;
 }
 
 .icon {
     display: flex;
     justify-content: row;
     width: 60px;
-    margin: 0 0 0 0;
+    margin: 0 0% 0 0;
 }
 
 .headTitle {
