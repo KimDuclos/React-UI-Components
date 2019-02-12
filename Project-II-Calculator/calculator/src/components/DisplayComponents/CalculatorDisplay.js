@@ -2,10 +2,10 @@ import React from 'react';
 import './Display.css';
 import NumberButton from '../ButtonComponents/NumberButton';
 
-const CalculatorDisplay = () => {
+const CalculatorDisplay = props => {
     return (
         <div className="Display">
-            0
+            <div className='calcProp'>{props.calcDisp}</div>
         </div>
     )
 };

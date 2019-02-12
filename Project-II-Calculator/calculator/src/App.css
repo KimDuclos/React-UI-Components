@@ -2,15 +2,16 @@
     width: 400px;
     display: flex;
     flex-direction: column;
+    border: 1px solid rgb(63, 61, 61);
 }
 
 .calcBottom {
     display: flex;
     flex-direction: row;
+
 }
 
 .numbers {
-    border: 1px solid purple;
     width: 300px;
     height: 300px;
     display: flex;

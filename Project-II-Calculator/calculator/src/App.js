@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className='container'> 
         <div className='dispBox'>
-          <CalculatorDisplay />
+          <CalculatorDisplay calcDisp="0"/>
         </div>
 
         <div className='calcBottom'>
@@ -33,8 +33,8 @@ const App = () => {
           <div className='CalculationButtons'>
             <CalcButtons calcBut="÷" />
             <CalcButtons calcBut="×" />
-            <CalcButtons calcBut="-" />
-            <CalcButtons calcBut="＋" />
+            <CalcButtons calcBut="−" />
+            <CalcButtons calcBut="+" />
             <CalcButtons calcBut="=" />
           </div>
     </div>
