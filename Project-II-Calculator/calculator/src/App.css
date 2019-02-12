@@ -1,0 +1,24 @@
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(63, 61, 61);
+}
+
+.calcBottom {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.numbers {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculationButtons {
+    width: 100px;
+    height: 500px;
+}

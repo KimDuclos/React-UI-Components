@@ -1,0 +1,53 @@
+.Display {
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 100px;
+    font-size: 70px;
+    padding: 3% 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-end;
+}
+
+/* number buttons */
+.numButtons {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(97, 95, 95);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 0 0 12%;
+    font-size: 50px;
+}
+
+/* clear and 0 buttons */
+.action {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(97, 95, 95);
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.calc {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(151, 24, 24);
+    color: white;
+    border: 1px solid rgb(97, 95, 95);
+    display: flex;
+    flex-direction: column;
+    padding: 20% 0 0 35%;
+    font-size: 50px;
+}
+
+.calcProp {
+    margin: 0 4% 0 0;
+}

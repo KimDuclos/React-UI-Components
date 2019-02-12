@@ -1,1 +1,55 @@
 /* All styles for your header Components live here */
+
+
+/* icon */
+.head {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.headIcon {
+    width: 200px;
+    margin: 0 0 0 0;
+}
+
+.headContent {
+    margin: 0 0 0 0;
+}
+
+.headerImage {
+    width: 90px;
+    margin: 0 0% 0 0;
+}
+
+.icon {
+    display: flex;
+    justify-content: row;
+    width: 60px;
+    margin: 0 0% 0 0;
+}
+
+.headTitle {
+    width: 600px;
+    margin: 1% 0 0 0;
+    display: flex;
+    justify-content: row;
+    justify-content: baseline;
+}
+
+.LS {
+    margin: 1% 0 0 0;
+    line-height: 1px;
+}
+
+.timeStamp {
+    color: rgb(170, 170, 170);
+    margin: 1% 0 0 1%;
+    line-height: 1px;
+}
+
+.HeadContent {
+    width: 600px;
+    margin: 0% 0 0 0;
+}

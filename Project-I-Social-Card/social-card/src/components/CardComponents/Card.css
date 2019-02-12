@@ -1,1 +1,43 @@
 /* All styles for your Card Components live here */
+
+.card {
+    width: 700px;
+}
+
+.CardBan {
+    height: 300px;
+    margin: 0 0 0% 0;
+}
+
+.CardImage {
+    width: 575px;
+    border-radius: 6px;
+    margin: 0 0 0% 100px;
+}
+
+.CardCont {
+    width: 575px;
+    margin: 0% 0 0 100px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.CardTitle {
+    margin: 1% 0 1% 0;
+    padding: 0 0 0 2%;
+}
+
+.CardParagraph {
+    margin: 0% 0 0 0;
+    padding: 0 0 0 2%;
+}
+
+.reactLink {
+    padding: .1% 0 .1% 2%;
+    color: gray;
+}
