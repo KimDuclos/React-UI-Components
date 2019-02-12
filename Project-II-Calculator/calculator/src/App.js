@@ -16,7 +16,7 @@ const App = () => {
 
         <div className='calcBottom'>
           <div className='numbers'>
-            <ActionButton act="Clear"/>
+            <ActionButton act="clear"/>
 
             <NumberButton num={1}/>
             <NumberButton num={2}/>

@@ -32,8 +32,8 @@
     color: black;
     border: 1px solid rgb(97, 95, 95);
     width: 300px;
-    padding: 0 0 0 12%;
     font-size: 50px;
+    text-align: center;
 }
 
 .calc {
@@ -44,6 +44,10 @@
     border: 1px solid rgb(97, 95, 95);
     display: flex;
     flex-direction: column;
-    padding: 20% 0 0 30%;
+    padding: 20% 0 0 35%;
     font-size: 50px;
+}
+
+.calcProp {
+    margin: 0 4% 0 0;
 }
