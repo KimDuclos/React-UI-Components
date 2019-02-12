@@ -1,12 +1,12 @@
 import React from 'react';
-import './TwitterThings.css';
+import './TwitterStyling.css';
 
-import './TwitterThings';
+import TwitterThings from './TwitterThings';
 
 const TwitterContainer = () => {
     return (
         <div className="allTwitter">
-            <TwitterThings />;
+            <TwitterThings />
         </div>
     )
 }
